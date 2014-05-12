@@ -15,6 +15,28 @@ $royal:                           #8a6de9 !default;
 $dark:                            #444 !default;
 */
 
+
+$dark-blue: #031634;
+$blue: #033649;
+$acqua: #036564;
+$brown: #CDB380;
+$light-brown: #E8DDCB;
+
+
+$stable:#036564;
+
+.text{
+	color: $blue;
+}
+
+.scroll-content{
+  background: url(http://i.imgur.com/5B6tRfJ.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 
