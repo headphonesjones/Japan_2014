@@ -1,5 +1,11 @@
 <ion-view title="Person">
   <ion-content class="has-header">
 	<h1>Person</h1>
+    <ion-content class="has-header">
+    <ion-list>
+      <div ng-repeat="Person in People">
+        {{Person.title}}
+      </div>
+    </ion-list>
   </ion-content>
 </ion-view>
